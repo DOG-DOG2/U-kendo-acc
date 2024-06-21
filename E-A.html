@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新歓会計楽々くん</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="c1">イベントA申請フォーム</h1>
+    <div class="container">
+        <h2>イベントA申請フォーム</h2>
+        <form id="dataFormA" action="https://script.google.com/macros/s/AKfycbzaUgwHPjCalZtIlB3Z7WO52m2tot8EwtmMXKM2rzaPIAkFmzP2B4AW8osrqct1HVPC/exec" method="POST">
+            <input type="hidden" name="formId" value="dataFormA">
+
+            <label for="date">月日:</label>
+            <input type="date"  name="date" autocomplete="off" required>
+            
+            <label for="name">氏名:</label>
+            <input type="text"  name="name" autocomplete="name" required>
+
+            <label for="highwayFee">高速代:</label>
+            <input type="number"  name="highwayFee" autocomplete="off" required>
+            
+            <label for="fuelCost">ガソリン代:</label>
+            <input type="number"  name="fuelCost" autocomplete="off" required>
+        
+            <label for="eventFeeA">イベント代A:</label>
+            <input type="number"  name="eventFeeA" autocomplete="off" required>
+        
+            <label for="eventFeeB">イベント代B:</label>
+            <input type="number"  name="eventFeeB" autocomplete="off" required>
+
+            <label for="afterPartyFood">イベント後の部飯:</label>
+            <input type="number"  name="afterPartyFood" autocomplete="off" required>
+        
+            <button type="submit">送信</button>
+        </form>
+    </div>
+</body>
+</html>
+
