@@ -1,0 +1,36 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新歓会計楽々くん</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<h1 style="text-align: center;">部飯の申請をする場所！</h1>
+<h2 style="text-align: center;" class="B1">返金対象になるのは「新人」の分だけです！</h2>
+<h2 style="text-align: center;" class="B1">報告するのは重複しないように支払った人だけにしましょう！</h2>
+
+<div class="container">
+    <h1>部飯会計フォーム</h1>
+    <form id="dataFormBU" action="https://script.google.com/macros/s/AKfycbzaUgwHPjCalZtIlB3Z7WO52m2tot8EwtmMXKM2rzaPIAkFmzP2B4AW8osrqct1HVPC/exec" method="POST">
+        <input type="hidden" name="formId" value="dataFormBU"> 
+
+        <label for="date">月日:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <label for="requirements">店名:</label>
+        <input type="text" id="FOODSHOP" name="FOODSHOP" required>
+
+        <label for="name">氏名:</label>
+        <input type="text" id="nameFOOD" name="nameFOOD" required>
+
+        <label for="amount">金額:</label>
+        <input type="number" id="FOOD" name="FOOD" required>
+
+        <button type="submit">送信</button>
+    </form>
+</div>
+    
+</body>
+</html>
