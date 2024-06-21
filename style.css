@@ -1,0 +1,165 @@
+.A1{
+    text-align: center;
+
+    width: 960px;
+    margin: auto;
+
+    position: relative;
+    top: 20px;
+
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 60px -16px lightgreen;
+    width: 900px;
+    border: 10px outset #afeeea;
+}
+
+
+.A2{ 
+    /*要素全体を中央揃え*/
+    width: 960px;
+    margin: auto;
+    
+    /*要素全体に対するポジショニング*/
+    position: relative;
+    top: 100px;
+
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 60px -16px teal;
+    width: 300px;
+    border: 10px outset #31A9EE;
+}
+
+.A3{
+    width: 960px;
+    margin: auto;
+
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 60px -16px lightgreen;
+    width: 900px;
+    border: 10px outset #afeeea;
+}
+
+.c1{
+    width: 960px;
+    margin: auto;
+
+    position: relative;
+    top: 5px;
+
+    padding: 20px;
+    border-radius: 30px;
+    width: 900px;
+    border: 10px outset #afeeea;
+}
+
+.B1::before,
+.B1::after {
+    content: "";
+    display: block;
+    height: 1em;
+    background: repeating-linear-gradient(
+    -45deg,
+    black,
+    black 1em,
+    yellow 1em,
+    yellow 2em
+    );
+}
+
+.D1{
+    display: flex;
+justify-content: center;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+
+    position: relative;
+    top: 40px;
+
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 60px -16px teal;
+    width: 300px;
+    border: 10px outset #31A9EE;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+/* スマホサイズ対応のスタイル */
+@media (max-width: 600px) {
+    .A1, .A2, .A3, .c1, .container {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+        box-shadow: none;
+        border: 5px outset #afeeea;
+    }
+
+    .A2, .container {
+        box-shadow: none;
+        border: 5px outset #31A9EE;
+    }
+
+    .A1 {
+        border: 5px outset #afeeea;
+    }
+
+    .c1 {
+        border: 5px outset #afeeea;
+    }
+
+    label {
+        margin-top: 5px;
+    }
+
+    input {
+        padding: 5px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
