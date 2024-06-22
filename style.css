@@ -1,19 +1,67 @@
-.A1{
-    text-align: center;
-
-    width: 960px;
-    margin: auto;
-
-    position: relative;
-    top: 20px;
-
-    padding: 20px;
-    border-radius: 30px;
-    box-shadow: 60px -16px lightgreen;
-    width: 900px;
-    border: 10px outset #afeeea;
+/* 全体のスタイル */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ヘッダースタイル */
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+/* メインスタイル */
+main {
+    margin-top: 40px;
+}
+
+.events h2, .events h3 {
+    margin: 20px 0;
+}
+
+.event-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.event-link {
+    background-color: #fff;
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s ease;
+}
+
+.event-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.event-link i {
+    margin-right: 10px;
+}
 
 .A2{ 
     /*要素全体を中央揃え*/
@@ -85,7 +133,7 @@ justify-content: center;
     text-align: center;
     padding: 20px;
     border-radius: 30px;
-    box-shadow: 60px -16px teal;
+    box-shadow: 60px -16px rgba(192, 192, 192, 0.5);
     width: 300px;
     border: 10px outset #31A9EE;
     
