@@ -37,7 +37,7 @@ main {
 }
 
 .event-links {
-    display: flex;
+    display:block;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
