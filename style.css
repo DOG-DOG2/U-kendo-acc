@@ -198,6 +198,16 @@ button:hover {
         border: 5px outset #afeeea;
     }
 
+    .event-links {
+        display: block; /* 横並びから縦並びに変更 */
+        text-align: center; /* 中央揃え */
+    }
+
+    .event-link {
+        display: block; /* リンクを縦に表示 */
+        margin: 10px 0; /* 上下に余白を追加 */
+    }
+
     label {
         margin-top: 5px;
     }
